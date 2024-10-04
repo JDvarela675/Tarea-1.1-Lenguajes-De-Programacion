@@ -1,7 +1,7 @@
 //Crea una función que calcule el promedio de los elementos de una lista.
 
 void main(){
-List<double> listaP=[10,56.15,45,33,23];
+final List<double> listaP=[10,56.15,45,33,23];
 promedioLista(listaP);
 
 }

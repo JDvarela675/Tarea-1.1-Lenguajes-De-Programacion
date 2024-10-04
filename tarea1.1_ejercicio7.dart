@@ -3,7 +3,7 @@ utilizar una función predeterminada por Dart.
 */ 
 
 void main(){
-List <double>BuscarMenor=[10,9,8,130,67,2];
+ final List <double>BuscarMenor=[10,9,8,130,67,2];
 NumeroMenor(BuscarMenor);
 
 }
