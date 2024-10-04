@@ -18,5 +18,6 @@ for(int i = 0; i < lista.length; i++){
 }
 double promedio=suma/lista.length;
    
-  print('El promedio de la lista $lista es:'+promedio.toStringAsPrecision(4));
+  print('El promedio de la lista $lista es:'+promedio.toStringAsPrecision(4)); //esta funcion .toStringAsPrecision(4) 
+  //la utilizamos para tener mas precision en los decimal en el caso de que estos sean muy grandes
 }
