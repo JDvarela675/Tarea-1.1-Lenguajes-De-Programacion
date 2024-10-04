@@ -17,5 +17,6 @@ for(int i = 0; i < lista.length; i++){
    suma+=lista[i];
 }
 double promedio=suma/lista.length;
-  print('El promedio de la lista $lista es:$promedio');
+   
+  print('El promedio de la lista $lista es:'+promedio.toStringAsPrecision(4));
 }
