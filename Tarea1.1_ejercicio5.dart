@@ -22,7 +22,6 @@ void ordenar({required bool ordenAscendente, required List<int> lista})
 {
   
   lista.sort();
-
   // si no es veradero -> sera ordenada de manera descendente
   if ( !ordenAscendente ) lista = lista.reversed.toList();
 
